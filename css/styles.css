@@ -171,6 +171,19 @@ body {
   /* background-color: springgreen; */
 }
 
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4));
+  background-image: url(../images/Jpeg/index/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-title {
   margin-bottom: 30px;
   margin-left: auto;
