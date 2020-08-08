@@ -33,11 +33,11 @@
           </ul>
         </nav>
         <!-- имейл и телефон -->
-        <ul class="contact-us list">
+        <ul class="contact-us list hover">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="email contact-link">
               <svg class="icon-envelope">
-                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
 
               info@devstudio.com</a
@@ -46,7 +46,7 @@
           <li class="item">
             <a href="tel:+380961111111" class="contact-link">
               <svg class="icon-smartphone">
-                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                <use href="./images/./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
             >
@@ -73,7 +73,11 @@
           <ul class="list feature-list">
             <!--без ФОКУСА, ТОЛЬКО ХОВЕР, ТАК КАК НЕ ИНТЕРАКТИВНЫЙ ЭЛЕМЕНТ-->
             <li class="item">
-              <img src="./images/2section/antenna.svg " alt="Веб студия" />
+              <div class="background-feature">
+                <svg class="icon-antenna">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по
@@ -81,7 +85,11 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/2section/clock.svg" alt="Веб студия" />
+              <div class="background-feature">
+                <svg class="icon-clock">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения
@@ -89,7 +97,11 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/2section/diagram.svg" alt="Веб студия" />
+              <div class="background-feature">
+                <svg class="icon-diagram">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной
@@ -97,7 +109,11 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/2section/astronaut.svg" alt="Веб студия" />
+              <div class="background-feature">
+                <svg class="icon-astronaut">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="list-title">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -115,7 +131,7 @@
           <ul class="work-list list">
             <li class="item">
               <img
-                src="./images/3section/img1.jpg"
+                src="./images/Jpeg/index/work1.jpg"
                 width="370"
                 alt="наши десктопные приложения"
               />
@@ -123,7 +139,7 @@
             </li>
             <li class="item">
               <img
-                src="./images/3section/img2.jpg"
+                src="./images/Jpeg/index/work2.jpg"
                 width="370"
                 alt="наши мобильные приложения"
               />
@@ -131,7 +147,7 @@
             </li>
             <li class="item">
               <img
-                src="./images/3section/img3.jpg"
+                src="./images/Jpeg/index/work3.jpg"
                 width="370"
                 alt="наши дизайнерские решения"
               />
@@ -149,7 +165,7 @@
             <li class="team-member">
               <img
                 class="image"
-                src="./images/4section/img1.jpg"
+                src="./images/Jpeg/index/team1.jpg"
                 width="270"
                 alt="Продакт дизайнер"
               />
@@ -160,13 +176,16 @@
               <ul class="list social-list">
                 <li class="social-item">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/"
                     class="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Instagram"
-                    >Instagram</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -175,8 +194,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Twitter"
-                    >Twitter</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -185,7 +207,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Facebook"
-                    >Facebook
+                  >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="social-item">
@@ -195,8 +220,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на LinkedIn"
-                    >LinkedIn</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -204,7 +232,7 @@
             <li class="team-member">
               <img
                 class="image"
-                src="./images/4section/img2.jpg"
+                src="./images/Jpeg/index/team2.jpg"
                 width="270"
                 alt="Фронт енд девелопер"
               />
@@ -214,13 +242,16 @@
               <ul class="list social-list">
                 <li class="social-item">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/"
                     class="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Instagram"
-                    >Instagram</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -229,8 +260,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Twitter"
-                    >Twitter</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -239,8 +273,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Facebook"
-                    >Facebook</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -249,8 +286,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на LinkedIn"
-                    >LinkedIn</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -258,7 +298,7 @@
             <li class="team-member">
               <img
                 class="image"
-                src="./images/4section/img3.jpg"
+                src="./images/Jpeg/index/team3.jpg"
                 width="270"
                 alt="Маркетинг"
               />
@@ -267,13 +307,16 @@
               <ul class="list social-list">
                 <li class="social-item">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/"
                     class="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Instagram"
-                    >Instagram</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -282,8 +325,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Twitter"
-                    >Twitter</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -292,8 +338,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Facebook"
-                    >Facebook</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -302,8 +351,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на LinkedIn"
-                    >LinkedIn</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -311,7 +363,7 @@
             <li class="team-member">
               <img
                 class="image"
-                src="./images/4section/img4.jpg"
+                src="./images/Jpeg/index/team4.jpg"
                 width="270"
                 alt="Дизейнер интерфейсов"
               />
@@ -320,13 +372,16 @@
               <ul class="list social-list">
                 <li class="social-item">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/"
                     class="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Instagram"
-                    >Instagram</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -335,8 +390,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Twitter"
-                    >Twitter</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -345,8 +403,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на Facebook"
-                    >Facebook</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-item">
                   <a
@@ -355,8 +416,11 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="ссылка на LinkedIn"
-                    >LinkedIn</a
                   >
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
