@@ -154,6 +154,19 @@ body {
   text-decoration: none;
 }
 
+.icon-smartphone {
+  vertical-align: middle;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.icon-envelope {
+  vertical-align: middle;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
 .contact-us .item + .item {
   margin-left: 50px;
 }
