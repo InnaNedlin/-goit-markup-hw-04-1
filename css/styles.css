@@ -41,9 +41,7 @@ h3 {
 .social-item:hover,
 .social-item:focus,
 .social-link-footer:hover,
-.social-link-footer:focus,
-.clients-link:hover,
-.clients-link:focus {
+.social-link-footer:focus {
   color: #2196f3;
 }
 
@@ -470,11 +468,18 @@ body {
   height: 90px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
+  /* color: #afb1b8; */
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
 .clients-icon {
-  fill: currentColor;
   vertical-align: middle;
+  fill: #afb1b8;
 }
 
 /* footer */
@@ -591,6 +596,8 @@ body {
 .social-icon-footer {
   fill: #ffffff;
 }
-/* fill="var(--color1, #afb1b8)"
 
-fill="var(--color1, #afb1b8)" */
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #2196f3;
+}
