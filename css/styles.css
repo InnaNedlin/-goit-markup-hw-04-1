@@ -451,11 +451,6 @@ body {
   align-items: center;
 }
 
-/* .clients-item {
-    border: 1px solid #afb1b8;
-  border-radius: 4px;
-} */
-
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -468,11 +463,15 @@ body {
   height: 90px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
+  fill: #afb1b8;
+
   /* color: #afb1b8; */
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link,
+.clients-icon:hover,
+.clients-link,
+.clients-icon:focus {
   border-color: #2196f3;
   fill: #2196f3;
 }
@@ -601,3 +600,5 @@ body {
 .social-link-footer:focus {
   background-color: #2196f3;
 }
+/* clients-sprite fill is deleted */
+/* fill="var(--color1, #afb1b8)" */
