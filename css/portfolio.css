@@ -61,6 +61,7 @@ body {
   /* display: flex; */
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 
   /* background-color: cyan; */
 }
@@ -124,9 +125,59 @@ body {
   text-decoration: none;
 }
 
-/* <!-- имейл и телефон --> */
+/* .contact-us; */
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .contact-us {
+  display: flex;
+  margin-left: auto;
+}
+
+.email {
+  margin-right: 30px;
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contact-link:focus,
+.contact-link:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.icon-smartphone {
+  vertical-align: middle;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.icon-envelope {
+  vertical-align: middle;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  color: #757575;
+}
+.contact-us .item + .item {
+  margin-left: 50px;
+}
+
+/* <!-- имейл и телефон --> */
+
+/* .contact-us {
   display: flex;
   margin-left: auto;
 }
@@ -146,7 +197,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
-}
+} */
 
 /* Герой */
 
