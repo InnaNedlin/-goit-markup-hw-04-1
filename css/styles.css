@@ -40,8 +40,6 @@ h3 {
 .hover:fokus,
 .social-item:hover,
 .social-item:focus,
-/* .social-link:hover,
-.social-link:focus, */
 .social-link-footer:hover,
 .social-link-footer:focus,
 .clients-link:hover,
@@ -412,12 +410,19 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  background: var(--white);
+  background: var(--white-color);
 }
 
 .social-link:hover,
 .social-link:focus {
-  fill: var(--accent-color);
+  /* fill: #ffffff; */
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: #ffffff;
 }
 
 /* content: "";
