@@ -418,21 +418,12 @@ body {
   color: #afb1b8;
 }
 
-.social-icon {
-  fill: currentColor;
-}
-
 .social-link:hover,
 .social-link:focus {
-  fill: #ffffff;
+  color: var(--white-color);
   background-color: #2196f3;
   border-radius: 50%;
 }
-
-/* .social-icon:hover,
-.social-icon:focus {
-  fill: #ffffff;
-} */
 
 /* content: "";
   width: 44px;
@@ -452,7 +443,7 @@ body {
   text-align: center; */
 
 .social-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 /* clients */
@@ -486,8 +477,8 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  border-color: 1px solid #2196f3;
-  fill: #2196f3;
+  border: 1px solid #2196f3;
+  color: #2196f3;
 }
 
 /* footer */
