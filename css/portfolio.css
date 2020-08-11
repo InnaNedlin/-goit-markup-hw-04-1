@@ -161,6 +161,7 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .icon-envelope {
@@ -168,8 +169,9 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  color: #757575;
+  fill: currentColor;
 }
+
 .contact-us .item + .item {
   margin-left: 50px;
 }

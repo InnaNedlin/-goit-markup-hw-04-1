@@ -16,6 +16,7 @@ html {
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --dark-color: #000000;
+  --color1: #afb1b8;
 }
 
 h1,
@@ -34,10 +35,6 @@ h3 {
 
 /* hover and focus */
 
-.nav-link:hover,
-.nav-link:focus,
-.hover:hover,
-.hover:fokus,
 .social-item:hover,
 .social-item:focus,
 .social-link-footer:hover,
@@ -125,6 +122,12 @@ body {
   text-decoration: none;
 }
 
+.nav-link:focus,
+.nav-link:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
 /* .contact-us; */
 
 .flexbox {
@@ -162,6 +165,7 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .icon-envelope {
@@ -169,8 +173,9 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  color: #757575;
+  fill: currentColor;
 }
+
 .contact-us .item + .item {
   margin-left: 50px;
 }
@@ -395,6 +400,7 @@ body {
   display: flex;
   height: 44px;
   width: 270px;
+  margin-bottom: 30px;
   justify-content: center;
 }
 
@@ -409,19 +415,24 @@ body {
   width: 44px;
   height: 44px;
   background: var(--white-color);
+  color: #afb1b8;
+}
+
+.social-icon {
+  fill: currentColor;
 }
 
 .social-link:hover,
 .social-link:focus {
-  /* fill: #ffffff; */
+  fill: #ffffff;
   background-color: #2196f3;
   border-radius: 50%;
 }
 
-.social-icon:hover,
+/* .social-icon:hover,
 .social-icon:focus {
   fill: #ffffff;
-}
+} */
 
 /* content: "";
   width: 44px;
@@ -455,7 +466,7 @@ body {
   margin-right: 30px;
 }
 .clients-link {
-  display: inline-flex;
+  display: flex;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
@@ -468,15 +479,15 @@ body {
   color: #afb1b8;
 }
 
+.clients-icon {
+  vertical-align: middle;
+  fill: currentColor;
+}
+
 .clients-link:hover,
 .clients-link:focus {
   border-color: 1px solid #2196f3;
-  fill: #2196f3;
-}
-
-.clients-icon {
-  vertical-align: middle;
-  fill: #afb1b8;
+  color: #2196f3;
 }
 
 /* footer */
@@ -598,5 +609,4 @@ body {
 .social-link-footer:focus {
   background-color: #2196f3;
 }
-/* clients-sprite fill is deleted */
-/* fill="var(--color1, #afb1b8)" */
+/* style="position:absolute;width:0;height:0" posle <svg aria-hidden="true"*/
