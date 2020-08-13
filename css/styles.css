@@ -180,6 +180,21 @@ body {
   margin-left: 50px;
 }
 
+.inline-flex {
+  position: relative;
+}
+
+.inline-flex::before {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -33px;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
 /* Герой */
 .hero {
   max-width: 1600px;
@@ -198,7 +213,7 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4));
   background-image: url(../images/Jpeg/index/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -329,17 +344,31 @@ body {
   margin-right: 30px;
 }
 
-.work-list .title {
+.title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: var(--white-color);
+  color: #ffffff;
 }
 
+.box2 {
+  position: relative;
+  width: 370px;
+}
+
+.title-absolute {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  align-content: center;
+  justify-content: center;
+  padding: 27px 82px;
+  background: rgba(47, 48, 58, 0.8);
+}
 /* Наша команда */
 
 .background {

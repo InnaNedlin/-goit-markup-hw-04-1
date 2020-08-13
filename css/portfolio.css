@@ -124,6 +124,21 @@ body {
   text-decoration: none;
 }
 
+.inline-flex {
+  position: relative;
+}
+
+.inline-flex::before {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -33px;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
 /* .contact-us; */
 
 .flexbox {
@@ -175,30 +190,6 @@ body {
 .contact-us .item + .item {
   margin-left: 50px;
 }
-
-/* <!-- имейл и телефон --> */
-
-/* .contact-us {
-  display: flex;
-  margin-left: auto;
-}
-
-.contact-us .item + .item {
-  margin-left: 50px;
-}
-
-.email {
-  margin-right: 30px;
-}
-
-.contact-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
-} */
 
 /* Герой */
 
@@ -291,6 +282,38 @@ a {
   text-decoration: none;
 }
 
+.box1 {
+  position: relative;
+  width: 370px;
+  overflow: hidden;
+  /* background-color: tan; */
+}
+
+.link-description {
+  margin: 0;
+  width: 322px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-align: left;
+  justify-content: center;
+  padding: 63px 24px;
+}
+
+.box-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+.box1:hover .link-description {
+  opacity: 0.9;
+}
+
 .description {
   /* background-color: darkkhaki; */
   padding: 24px 20px;
@@ -317,15 +340,6 @@ a {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.link-description {
-  display: none;
-  margin: 0;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: #ffffff;
 }
 
 /* footer */
