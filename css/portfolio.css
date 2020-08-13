@@ -286,6 +286,7 @@ a {
   position: relative;
   width: 370px;
   overflow: hidden;
+
   /* background-color: tan; */
 }
 
@@ -306,12 +307,15 @@ a {
   height: 100%;
   top: 0;
   left: 0;
+  transform: translateY(100%);
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
 }
-.box1:hover .link-description {
+.box1:hover .box-hover {
   opacity: 0.9;
+
+  transform: translateY(0);
 }
 
 .description {
